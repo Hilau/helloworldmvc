@@ -1,6 +1,8 @@
 package org.view;
 
-public class View {
+import org.contract.IView;
+
+public class View implements IView {
 
 	public void displayMessage(String message)
 	{

@@ -35,7 +35,7 @@ public class DAOHelloWorld {
 	
 	public static String getQuerySelectFirstHelloWorld()
 	{
-		return null;		
+		return "SELECT * FROM helloworld";		
 	}
 	
 	protected ResultSet executeQuery(String query)
